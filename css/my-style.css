@@ -1,0 +1,32 @@
+body{
+	background-color: #f2d13e; /*Cor para background - Amarelo*/
+}
+
+.my-logo{
+	z-index: 1;
+	position: relative;
+}
+
+.my-logo span{
+	color: #8c7922;
+}
+
+.my-logo h1{
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 56px;
+}
+
+.my-logo h5{
+	color: #fff;
+}
+
+.my-fone img{
+	margin: -90px 0 0 0;
+	
+}
+
+.my-corpo h3{
+	color: #fff;
+}
