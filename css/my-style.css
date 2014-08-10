@@ -289,3 +289,61 @@ form .botao{
 	font-size: 24px;
 	font-weight: bold;
 }
+
+/****************************** CSS da Página CONTATO ***********************************/
+/****************************** CSS da Página CONTATO ***********************************/
+
+.my-depoimento{
+	background: #8FBF4D;
+}
+
+.my-pessoas img{
+	margin: -90px 0 0 0;
+	z-index: 0;
+	position: absolute;
+	width: 800px;
+}
+
+/*------- Corpo do HTML - Header - DEPOIMENTO -------*/
+.my-corpo-depoimento{
+	z-index: 1;
+	position: relative;
+	margin-top: 25px;
+}
+
+.my-corpo-depoimento h2{
+	color: #fff;
+	margin-bottom: 40px;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+/*------- Corpo do HTML - Header - Segunda parte DEPOIMENTO -------*/
+.my-pessoas-depoimentos{
+	position: relative;
+	margin-top: -180px;
+}
+
+.my-pessoas-depoimentos img{
+	width: 70px;
+}
+
+.my-pessoas-depoimentos h3, .my-pessoas-depoimentos span, .my-pessoas-depoimentos p{
+	float: right;
+}
+
+.my-pessoas-depoimentos h3{
+	color: #fff;
+	font-weight: bold;
+	margin: -95px 70px 0 0;
+}
+
+.my-pessoas-depoimentos span{
+	color: #8c7922;
+	margin: -55px 145px 0 0;
+}
+
+.my-pessoas-depoimentos p{
+	font-size: 12px;
+	
+}
