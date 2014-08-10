@@ -1,5 +1,5 @@
 body{
-	background-color: #f2d13e; /*Cor para background - Amarelo*/
+	background-color: #87CEFA; /*Cor para background - Amarelo*/
 }
 
 /*--------- Logo -----------*/
@@ -47,36 +47,27 @@ nav{
 .my-corpo{
 	z-index: 1;
 	position: relative;
-	margin-top: 65px;
+	margin-top: 20px;
 }
 
 .my-corpo h3{
 	color: #fff;
-	margin-bottom: 25px;
-	font-size: 50px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 28px;
 }
 
 .my-corpo span{
-	color: #8c7922;
-	font-weight: bold;
-	font-size: 18px;
+	color: #fff;
+	font-weight: normal;
+	font-size: 22px;
 }
 
 .my-corpo p{
-	color: #fff;
+	color: #8c7922;
 	font-size: 20px;
-	font-weight: bold;
-	margin: 25px 0 30px 0;
-}
-
-/*--------- Botão - Corpo do HTML - Header -----------*/
-.my-corpo button{
-	padding: 20px 50px 20px 50px;
-	background: #8c7922;
-	border-radius: 16px;
-	color: #fff;
-	font-size: 30px;
-	font-weight: bold;
+	font-weight: normal;
+	margin: 10px 0 20px 0;
 }
 
 /*--------- Breads - Header -----------*/
@@ -86,7 +77,7 @@ nav{
 
 /*--------- Logo inferior - Footer -----------*/
 .my-footer{
-	margin: 120px 0 0 1060px;
+	margin: 45px 0 0 1060px;
 }
 
 .my-footer h4{
