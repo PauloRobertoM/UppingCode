@@ -7,11 +7,11 @@
 		<meta name="keywords" content="Código Limpo, Desenvolvimento Web, HTML5, Desenvolvimento Ágil" />
 		<meta name="author" content="Upping Code" />
 		<meta name="reply-to" content="contato@uppingcode.com.br" />
-		<title>Upping Code - Sobre</title>
+		<title>Upping Code - Contato</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/my-style.css" />
 	</head>
-	<body class="my-sobre">
+	<body class="my-contato">
 		<div class="row-fluid">
 			<header class="container">
 				<div class="span8 my-logo">
@@ -32,16 +32,31 @@
 			</header> <!-- Close header -->
 		</div> <!-- Close row-fluid -->
 		<div class="row-fluid">
-			<section class="span6 my-tablet">
-				<img src="img/bg/tablet.png" alt="" />
+			<section class="span7 my-imac">
+				<img src="img/bg/imac.png" alt="" />
 			</section>
-			<section class="span5 my-corpo-sobre">
-				<h3>Um pouco sobre a UppingCode!</h3>
-				<span>Código de Qualidade</span>
-				<p>Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-				<p>Modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
-				<p>Qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo?</p>
+			<section class="span4 my-corpo-contato">
+				<h2>Contato</h2>
+				<address>Rua 17 de Março 85<br />
+						Natal/RN
+				</address>
+				<h3><img src="img/web/fone-contato.png" alt="">(84) 3663 - 0790</h3>
+				
+				<form action="#" method="get"> 
+					<p>
+						<input type="text" placeholder="Nome" id="nome" name="nome" />
+					</p>
+					<p>
+						<input type="email" placeholder="Email" id="email" name="email" />
+					</p>
+					<p>
+						<textarea name="mensagem" placeholder="Mensagem" cols="10" rows="5" id="mensagem"></textarea>
+					</p>
+
+					<input type="reset" name="limpar" value="Limpar" class="botao" onclick="limparForm()" />
+					<input type="submit" name="enviar" value="Enviar" class="botao" onclick="alert('Dados enviados com sucesso!')" />
+				</form>
+
 			</section>
 			<section class="span1 my-bread">
 				<ul class="pagination nav">
@@ -54,7 +69,7 @@
 			</section>
 		</div>
 
-		<div class="span4 my-footer-sobre">
+		<div class="span4 my-footer-contato">
 			<h4>Upping <span>Code</span></h4>
 			<p>
 				&copy; Todos os direitos reservados!

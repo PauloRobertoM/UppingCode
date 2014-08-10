@@ -66,6 +66,7 @@ nav{
 	color: #fff;
 	font-size: 20px;
 	font-weight: bold;
+	text-align: justify;
 	margin: 25px 0 30px 0;
 }
 
@@ -105,4 +106,186 @@ nav{
 .my-footer p{
 	color: #fff;
 	font-size: 15px;
+}
+
+/********************************** CSS da Página SOBRE ***********************************/
+/********************************** CSS da Página SOBRE ***********************************/
+
+.my-sobre{
+	background-color: #7ECEFD; /*Cor para background - AZUL*/
+}
+
+.my-tablet img{
+	margin: -90px 0 0 0;
+	z-index: 0;
+	position: absolute;
+	width: 835px;
+}
+
+/*------- Corpo do HTML - Header - Sobre -------*/
+.my-corpo-sobre{
+	z-index: 1;
+	position: relative;
+	margin-top: 20px;
+}
+
+.my-corpo-sobre h3{
+	color: #fff;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 28px;
+}
+
+.my-corpo-sobre span{
+	color: #fff;
+	font-weight: normal;
+	font-size: 22px;
+}
+
+.my-corpo-sobre p{
+	color: #8c7922;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: justify;
+	margin: 10px 0 20px 0;
+}
+
+/*------- Logo inferior - Footer - Sobre -------*/
+.my-footer-sobre{
+	margin: 45px 0 0 1060px;
+}
+
+.my-footer-sobre h4{
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.my-footer-sobre span{
+	color: #8c7922;
+	font-weight: normal;
+	margin-left: -6px;
+}
+
+.my-footer-sobre p{
+	color: #fff;
+	font-size: 15px;
+}
+
+/****************************** CSS da Página CONTATO ***********************************/
+/****************************** CSS da Página CONTATO ***********************************/
+
+.my-contato{
+	background-color: #FF7F66; /*Cor para background - ROSA, ou sei lá o que*/
+}
+
+.my-imac img{
+	margin: 20px 0 0 0;
+	z-index: 0;
+	position: absolute;
+	width: 706px;
+}
+
+/*------- Corpo do HTML - Header - CONTATO -------*/
+.my-corpo-contato{
+	z-index: 1;
+	position: relative;
+	margin-top: 15px;
+}
+
+.my-corpo-contato h2{
+	color: #fff;
+	margin-bottom: 40px;
+	font-weight: normal;
+	font-size: 64px;
+}
+
+.my-corpo-contato address{
+	color: #fff;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.my-corpo-contato h3{
+	color: #fff;
+	font-size: 48px;
+	font-weight: normal;
+	margin: 10px 0 0 0;
+}
+
+/*------- Logo inferior - Footer - CONTATO -------*/
+.my-footer-contato{
+	margin: 35px 0 0 1060px;
+}
+
+.my-footer-contato h4{
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.my-footer-contato span{
+	color: #8c7922;
+	font-weight: normal;
+	margin-left: -6px;
+}
+
+.my-footer-contato p{
+	color: #fff;
+	font-size: 15px;
+}
+
+/*------- Logo inferior - Formulário - CONTATO -------*/
+
+form{
+	margin-top: 30px;
+}
+
+form #nome{
+	float: left;
+	width: 165px;
+	padding: 10px;
+	background-color: #CD5C5C;
+	color: #fff;
+	border: none;
+}
+
+form #email{
+	width: 165px;
+	margin-left: 40px;
+	padding: 10px;
+	background-color: #CD5C5C;
+	color: #fff;
+	border: none;
+}
+
+form #mensagem{
+	width: 400px;
+	background-color: #CD5C5C;
+	color: #fff;
+	border: none;
+}
+
+#nome::-webkit-input-placeholder{
+	color:#fff;
+}
+
+#email::-webkit-input-placeholder{
+	color:#fff;
+}
+
+#mensagem::-webkit-input-placeholder{
+	color:#fff;
+}
+
+form .botao{
+	background: none;
+	border: none;
+	float: right;
+	margin-right: 20px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
 }
