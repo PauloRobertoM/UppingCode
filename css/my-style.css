@@ -41,6 +41,7 @@ nav{
 	z-index: 0;
 	position: absolute;
 	width: 768px;
+	opacity: 0.5;
 }
 
 /*--------- Corpo do HTML - Header -----------*/
@@ -120,6 +121,7 @@ nav{
 	z-index: 0;
 	position: absolute;
 	width: 835px;
+	opacity: 0.5;
 }
 
 /*------- Corpo do HTML - Header - Sobre -------*/
@@ -185,6 +187,7 @@ nav{
 	z-index: 0;
 	position: absolute;
 	width: 706px;
+	opacity: 0.5;
 }
 
 /*------- Corpo do HTML - Header - CONTATO -------*/
@@ -302,6 +305,7 @@ form .botao{
 	z-index: 0;
 	position: absolute;
 	width: 800px;
+	opacity: 0.5;
 }
 
 /*------- Corpo do HTML - Header - DEPOIMENTO -------*/
@@ -378,3 +382,33 @@ form .botao{
 .my-pessoas-depoimentos-dois p{
 	font-size: 12px;
 }*/
+
+/****************************** CSS da Página SERVIÇOS ***********************************/
+/****************************** CSS da Página SERVIÇOS ***********************************/
+
+.my-servicos{
+	background: #696969;
+}
+
+.my-engrenagem img{
+	margin: -90px 0 0 0;
+	z-index: 0;
+	position: absolute;
+	width: 785px;
+	opacity: 0.5;
+}
+
+/*------- Corpo do HTML - Header - DEPOIMENTO -------*/
+
+.my-corpo-servicos{
+	z-index: 1;
+	position: relative;
+	margin-top: 30px;
+}
+
+.my-corpo-servicos h2{
+	color: #fff;
+	margin-bottom: 40px;
+	font-weight: normal;
+	font-size: 32px;
+}
