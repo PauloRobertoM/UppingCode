@@ -325,7 +325,7 @@ form .botao{
 }
 
 .my-pessoas-depoimentos img{
-	width: 70px;
+	width: 65px;
 }
 
 .my-pessoas-depoimentos h3, .my-pessoas-depoimentos span, .my-pessoas-depoimentos p{
@@ -333,17 +333,48 @@ form .botao{
 }
 
 .my-pessoas-depoimentos h3{
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	margin: -90px 125px 0 0;
+}
+
+.my-pessoas-depoimentos span{
+	font-size: 14px;
+	color: #8c7922;
+	margin: -55px 150px 0 0;
+}
+
+.my-pessoas-depoimentos p{
+	font-size: 12px;
+}
+
+/*
+.my-pessoas-depoimentos-dois{
+	position: relative;
+	margin-top: -240px;
+}
+
+.my-pessoas-depoimentos-dois img{
+	width: 50px;
+}
+
+.my-pessoas-depoimentos-dois h3, .my-pessoas-depoimentos-dois span, .my-pessoas-depoimentos-dois p{
+	float: right;
+}
+
+.my-pessoas-depoimentos-dois h3{
+	font-size: 20px;
 	color: #fff;
 	font-weight: bold;
 	margin: -95px 70px 0 0;
 }
 
-.my-pessoas-depoimentos span{
+.my-pessoas-depoimentos-dois span{
 	color: #8c7922;
 	margin: -55px 145px 0 0;
 }
 
-.my-pessoas-depoimentos p{
+.my-pessoas-depoimentos-dois p{
 	font-size: 12px;
-	
-}
+}*/
